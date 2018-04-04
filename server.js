@@ -18,7 +18,7 @@ app.use(routes);
 mongoose.Promise = global.Promise;
 // Connect to the Mongo DB  
 mongoose.connect(
-    "mongodb://shakezula1224:Brandnew1224@ds133816.mlab.com:33816/heroku_6mmx8wfw" || "mongodb://localhost/reactarticleslist",
+    "mongodb://heroku_2mmch3gr:Brandnew1224@ds133816.mlab.com:33816/heroku_6mmx8wfw" || "mongodb://localhost/reactarticleslist",
   {
     useMongoClient: true
   }
