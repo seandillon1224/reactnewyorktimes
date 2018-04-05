@@ -106,9 +106,9 @@ class Articles extends Component {
             </Jumbotron>
             {this.state.results.length ? (
               <List>
-                {this.state.results[0].map(article => {
+                {this.state.results[0].map((article, index )=> {
                   return (
-                    <ListItem key={article._id}>
+                    <ListItem key={index}>
                       <a href={"/article/" + article._id}>
                         <strong>
                           <div>Headline: {article.headline.main}</div>
